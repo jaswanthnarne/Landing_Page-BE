@@ -348,3 +348,33 @@ export const DEFAULT_GALLERY_CATEGORIES = [
         ],
     },
 ];
+
+export const DEFAULT_NAVBAR_ITEMS = [
+    { label: 'Home', href: '/' },
+    {
+        label: 'Programs',
+        dropdown: [
+            { label: 'Programmes', href: '/programmes' },
+            { label: 'Centre of Excellence', href: '/centre-of-excellence' },
+            { label: 'Lakshya 2047 (Future Skills)', href: '/lakshya-2047' }
+        ]
+    },
+    {
+        label: 'Placements',
+        dropdown: [
+            { label: 'Placements Page', href: '/placements' },
+            { label: 'Internship & Projects', href: '/internship-and-projects' },
+            { label: 'Educational Partners', href: '/about#educational-partners' },
+            { label: 'Hiring Partners', href: '/about#corporate-partners' }
+        ]
+    },
+    { label: 'Careers', href: '/careers' },
+    {
+        label: 'Company',
+        dropdown: [
+            { label: 'About Us', href: '/about' },
+            { label: 'Gallery', href: '/gallery' }
+        ]
+    },
+    { label: 'Contact', href: '/contact' }
+];
