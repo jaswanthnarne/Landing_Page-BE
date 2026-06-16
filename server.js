@@ -14,6 +14,7 @@ import applicationsHandler from './api/applications.js';
 import enquiriesHandler from './api/enquiries.js';
 import imagesHandler from './api/images.js';
 import lakshyaHandler from './api/lakshya.js';
+import galleryHandler from './api/gallery.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -39,6 +40,7 @@ app.all('/api/applications', applicationsHandler);
 app.all('/api/enquiries', enquiriesHandler);
 app.all('/api/images', imagesHandler);
 app.all('/api/lakshya', lakshyaHandler);
+app.all('/api/gallery', galleryHandler);
 
 // Start server
 app.listen(PORT, () => {

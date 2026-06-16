@@ -297,3 +297,54 @@ export const DEFAULT_PAGE_IMAGES = {
     'internships-3': 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584303/ethnotech/page_images/fnmrn8xj4ts4jb5ghggy.jpg',
     'internships-4': 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584232/ethnotech/slides/sfncqmobbo9gwzbc2cw4.jpg'
 };
+
+export const DEFAULT_GALLERY_CATEGORIES = [
+    {
+        id: 'cfs',
+        label: 'Centre For Future Skills',
+        items: [
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584304/ethnotech/gallery/zt6lpirckmrgcmx2ly6a.jpg', label: 'Centre Inauguration', sub: 'NSDC Centre for Future Skills Launch — DYPATU' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584305/ethnotech/gallery/xzpiab9j4nsqc04kkklw.jpg', label: 'Inaugural Ceremony', sub: 'Centre for Future Skills, D Y Patil University' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584306/ethnotech/gallery/e3jzgilmufrbs2etaywn.jpg', label: 'Centre Unveiling', sub: 'DYPATU Campus — Official Ceremony' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584309/ethnotech/gallery/ab9apcyntgufvmlkhmdi.jpg', label: 'NSDC Recognition', sub: 'Award Ceremony — Centre for Future Skills' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584310/ethnotech/gallery/ue9zlx4mvtkiuxkkodz5.jpg', label: 'VR Technology Demo', sub: 'Industry Expert — Immersive Tech Workshop' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584311/ethnotech/gallery/jxbrncykhz3a63rdfnlj.jpg', label: 'Guest Lecture Series', sub: 'Expert Talk on Emerging Technologies' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584312/ethnotech/gallery/x9j96kqtniyl00u28hol.jpg', label: 'Skill Training Session', sub: 'Hands-on Lab Session' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584313/ethnotech/gallery/ounijxvsojpuwpw5gtyj.jpg', label: 'Certification Event', sub: 'Program Completion Ceremony' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584314/ethnotech/gallery/qgj8f1ev4a9ti82eg6k3.jpg', label: 'Industry Collaboration', sub: 'Corporate Partnership Meet' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584316/ethnotech/gallery/ldhcyi9oo5bmsosj2ggh.jpg', label: 'Student Workshop', sub: 'Advanced Technology Training' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584317/ethnotech/gallery/edruebczqwfttnzyjc4n.jpg', label: 'Panel Discussion', sub: 'Future of Work — Expert Panel' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584292/ethnotech/page_images/eyfrannjprdhyfl9p7t2.jpg', label: 'Resource Centre', sub: 'Learning & Development Library' },
+        ],
+    },
+    {
+        id: 'labs',
+        label: 'Labs & Infra',
+        items: [
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584234/ethnotech/coe/qd89a0ea0ki3x2agagsi.jpg', label: 'Apple iMac Lab', sub: 'Apple Centre of Excellence — 30+ Workstations' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584238/ethnotech/coe/k4gcz6xu4jloahmr16ts.jpg', label: 'AR/VR Innovation Lab', sub: 'Green Screen & Production Studio' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584318/ethnotech/coe/v0ioajqlzzwvw7omp8vb.jpg', label: 'VR Device Library', sub: 'Headsets & Immersive Equipment' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584235/ethnotech/coe/f2nby1qy1qfhpaymmmhz.jpg', label: 'IBM Centre of Excellence', sub: 'Enterprise AI & Cloud Computing Lab' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584237/ethnotech/coe/oaawcqdvmmkkia2ycm9h.jpg', label: 'Intel Computing Lab', sub: 'AI & Processor Architecture Training' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584239/ethnotech/coe/vta1dmy3p5er5lic0crr.jpg', label: 'Schneider Automation Lab', sub: 'PLC & SCADA Training Stations' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584319/ethnotech/coe/wsf7giftgtlvqbxibkpa.jpg', label: 'Schneider Advanced Stations', sub: 'Industrial Automation Equipment' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584240/ethnotech/coe/zjpyiu6dye8fzd1uukhf.jpg', label: 'Festo Pneumatics Lab', sub: 'Industry-Grade Pneumatics Workstations' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584320/ethnotech/coe/w8ijp9bfsp1iyngoyp7c.jpg', label: 'Festo Hydraulics Lab', sub: 'Hydraulic Systems Training' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584321/ethnotech/coe/xpopw6xki8o26cuhb3wa.jpg', label: 'Festo Pneumatics Classroom', sub: 'Industrial Training Stations' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584323/ethnotech/coe/y5hq7vb2hsdcqaqyk3fr.jpg', label: 'Festo Hydraulics Classroom', sub: 'Mechatronics & Fluid Power' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584324/ethnotech/coe/hhvyydzhtr3pdi8zvato.jpg', label: 'Conference & Meeting Centre', sub: 'Executive Board Room — Industry Interactions' },
+        ],
+    },
+    {
+        id: 'global',
+        label: 'Beyond Boundaries: Global Citizens',
+        items: [
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584325/ethnotech/gallery/lcchn6gz2a964pwgieeg.jpg', label: 'Global Citizens Summit', sub: 'Beyond Boundaries — International Conference' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584327/ethnotech/gallery/jbyyuvuxyurwy80q9s5x.jpg', label: 'Cultural Exchange', sub: 'Cross-Cultural Collaboration Event' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584328/ethnotech/gallery/fssrbrbpgvompuijizgi.jpg', label: 'International Delegation', sub: 'Global Partnership Programme' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584330/ethnotech/gallery/lv4hi1vfsbll2hxhqjwf.jpg', label: 'MoU Signing', sub: 'University Partnership Agreement' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584331/ethnotech/gallery/jcoayrfb5wwmxz9joste.jpg', label: 'Skill Summit', sub: 'Future of Work — Global Panel' },
+            { src: 'https://res.cloudinary.com/ddwxonjbd/image/upload/v1781584333/ethnotech/gallery/eclu2b1kea8utgovwwiq.jpg', label: 'Global Networking', sub: 'International Mentors & Students' },
+        ],
+    },
+];
