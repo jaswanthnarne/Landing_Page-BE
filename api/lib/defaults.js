@@ -378,3 +378,15 @@ export const DEFAULT_NAVBAR_ITEMS = [
     },
     { label: 'Contact', href: '/contact' }
 ];
+
+export const DEFAULT_PLACEMENTS_CONFIG = {
+    heroTitle: 'Your Path to Career Success Starts Here',
+    heroSubtitle: 'Connecting talent with leading employers through dedicated placement support, expert career counseling, and a vast network of global industry partnerships.',
+    stats: [
+        { id: '1', value: '95%', label: 'Placement Rate', icon: 'Award' },
+        { id: '2', value: '24 LPA', label: 'Highest Package', icon: 'TrendingUp' },
+        { id: '3', value: '6.5 LPA', label: 'Average Package', icon: 'Briefcase' },
+        { id: '4', value: '80+', label: 'Hiring Partners', icon: 'Users' }
+    ]
+};
+
