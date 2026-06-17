@@ -373,7 +373,8 @@ export const DEFAULT_NAVBAR_ITEMS = [
         label: 'Company',
         dropdown: [
             { label: 'About Us', href: '/about' },
-            { label: 'Gallery', href: '/gallery' }
+            { label: 'Gallery', href: '/gallery' },
+            { label: 'Blog', href: '/blog' }
         ]
     },
     { label: 'Contact', href: '/contact' }
