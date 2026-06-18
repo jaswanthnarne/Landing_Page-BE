@@ -18,6 +18,7 @@ import galleryHandler from './api/gallery.js';
 import navbarHandler from './api/navbar.js';
 import placementsHandler from './api/placements.js';
 import blogsHandler from './api/blogs.js';
+import faqsHandler from './api/faqs.js';
 
 
 const app = express();
@@ -48,6 +49,7 @@ app.all('/api/gallery', galleryHandler);
 app.all('/api/navbar', navbarHandler);
 app.all('/api/placements', placementsHandler);
 app.all('/api/blogs', blogsHandler);
+app.all('/api/faqs', faqsHandler);
 
 
 // Start server

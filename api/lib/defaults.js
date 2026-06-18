@@ -374,7 +374,8 @@ export const DEFAULT_NAVBAR_ITEMS = [
         dropdown: [
             { label: 'About Us', href: '/about' },
             { label: 'Gallery', href: '/gallery' },
-            { label: 'Blog', href: '/blog' }
+            { label: 'Blog', href: '/blog' },
+            { label: 'FAQs', href: '/faqs' }
         ]
     },
     { label: 'Contact', href: '/contact' }
